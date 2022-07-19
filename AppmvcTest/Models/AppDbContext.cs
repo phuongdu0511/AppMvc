@@ -1,4 +1,5 @@
 ﻿using System;
+using App.Models;
 using AppmvcTest.Models.Contacts;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;

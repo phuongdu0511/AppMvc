@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using App.Data;
+using App.Models;
+using App.Services;
 using AppmvcTest.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,6 +29,11 @@ namespace AppmvcTest
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddOptions();
+            var mailsetting = Configuration.GetSection("MailSettings");
+            services.Configure<MailSettings>(mailsetting);
+            services.AddSingleton<IEmailSender, SendMailService>();
+
             services.AddDbContext<AppDbContext>(options => {
                 string connectString = Configuration.GetConnectionString("AppMvcConnectionString");
                 options.UseSqlServer(connectString);
@@ -86,6 +94,15 @@ namespace AppmvcTest
                     // .AddTwitter()
                     // .AddMicrosoftAccount()
                     ;
+            services.AddSingleton<IdentityErrorDescriber, AppIdentityErrorDescriber>();
+
+            services.AddAuthorization(options => {
+                options.AddPolicy("ViewManageMenu", builder => {
+                    builder.RequireAuthenticatedUser();
+                    builder.RequireRole(RoleName.Administrator);
+                });
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

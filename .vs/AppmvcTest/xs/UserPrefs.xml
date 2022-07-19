@@ -1,15 +1,33 @@
 ﻿<Properties StartupConfiguration="{01F095C8-D318-4667-A7F5-E5C64A4E47E6}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppmvcTest/Views/Shared/_MenuManagePartial.cshtml">
+    <Files>
+      <File FileName="AppmvcTest/Startup.cs" Line="102" Column="66" />
+      <File FileName="AppmvcTest/Views/Shared/_MenuManagePartial.cshtml" Line="1" Column="2" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="AppmvcTest" expanded="True">
             <Node name="AppmvcTest" expanded="True">
-              <Node name="Areas" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Contact" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                </Node>
+                <Node name="Database" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="DbManage" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_MenuManagePartial.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

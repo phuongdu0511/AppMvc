@@ -35,7 +35,7 @@
     <form method="post">
         <button class="btn btn-success" asp-action="Migrate">Tạo Db(Cập nhập migrations)</button>
     </form>
-    
+
 }
 
 @if (can_connect)
@@ -51,4 +51,5 @@
     </ul>
 
     <a class="btn btn-danger" asp-action="DeleteDb">Xóa Database: @dbname</a>
+    <a class="btn btn-danger" asp-action="SeedData">Seed Data</a>
 }
