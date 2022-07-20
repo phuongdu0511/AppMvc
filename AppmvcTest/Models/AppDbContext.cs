@@ -1,5 +1,6 @@
 ﻿using System;
 using App.Models;
+using App.Models.Blog;
 using AppmvcTest.Models.Contacts;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -32,10 +33,15 @@ namespace AppmvcTest.Models
                     entityType.SetTableName(tableName.Substring(6));
                 }
             }
+            modelBuilder.Entity<Category>(entity => {
+                entity.HasIndex(c => c.Slug);
+            });
 
         }
 
         public DbSet<Contact> Contacts { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
 
     }
 }

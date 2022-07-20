@@ -173,6 +173,13 @@
 /Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/AppmvcTest.TagHelpers.input.cache
 /Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/AppmvcTest.TagHelpers.output.cache
 /Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/AppmvcTest.RazorCoreGenerate.cache
+/Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/Razor/Areas/Blog/Views/Category/Create.cshtml.g.cs
+/Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/Razor/Areas/Blog/Views/Category/Delete.cshtml.g.cs
+/Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/Razor/Areas/Blog/Views/Category/Details.cshtml.g.cs
+/Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/Razor/Areas/Blog/Views/Category/Edit.cshtml.g.cs
+/Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/Razor/Areas/Blog/Views/Category/Index.cshtml.g.cs
+/Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/Razor/Areas/Blog/Views/_ViewImports.cshtml.g.cs
+/Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/Razor/Areas/Blog/Views/_ViewStart.cshtml.g.cs
 /Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/Razor/Areas/Contact/Views/Contact/Delete.cshtml.g.cs
 /Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/Razor/Areas/Contact/Views/Contact/Details.cshtml.g.cs
 /Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/obj/Debug/net5.0/Razor/Areas/Contact/Views/Contact/Index.cshtml.g.cs

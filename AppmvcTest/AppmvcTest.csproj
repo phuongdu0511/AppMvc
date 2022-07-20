@@ -29,6 +29,8 @@
     <None Remove="Microsoft.AspNetCore.Authentication.OpenIdConnect" />
     <None Remove="MailKit" />
     <None Remove="MimeKit" />
+    <None Remove="Models\Blog\" />
+    <None Remove="Areas\Blog\Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
@@ -62,5 +64,7 @@
   <ItemGroup>
     <Folder Include="Areas\Database\Views\DbManage\" />
     <Folder Include="Models\Contact\" />
+    <Folder Include="Models\Blog\" />
+    <Folder Include="Areas\Blog\Controllers\" />
   </ItemGroup>
 </Project>

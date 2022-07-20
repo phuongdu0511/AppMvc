@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AxzZ4tCEtSiFEfJcxUo5VN/GVTpUDqvqiZZ1wmsomXt2tGRb8eWTUb8qLCXt2CpC3HUVgLqTBlfr9608lT7dYg==",
+  "dgSpecHash": "EAdPTOpn6i3NnKegPhW6QL31Aul2bXWqAk4Y6X1Eq05DNgsqXxKYIqCVaSeSBvWWgmNtbx5SKnV7z9Re8XePPw==",
   "success": true,
   "projectFilePath": "/Users/duongphuongduy1996gmail.com/Projects/AppmvcTest/AppmvcTest/AppmvcTest.csproj",
   "expectedPackageFiles": [
@@ -180,7 +180,10 @@
     "/Users/duongphuongduy1996gmail.com/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/duongphuongduy1996gmail.com/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/duongphuongduy1996gmail.com/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/duongphuongduy1996gmail.com/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "/Users/duongphuongduy1996gmail.com/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "/Users/duongphuongduy1996gmail.com/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/duongphuongduy1996gmail.com/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/duongphuongduy1996gmail.com/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.13/microsoft.netcore.app.host.osx-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }
